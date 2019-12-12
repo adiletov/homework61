@@ -1,0 +1,13 @@
+.country{
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.country:last-child{
+    border-bottom: 1px solid black;
+}
+.countriesTxt{
+    margin: 0px;
+    padding: 5px;
+}
