@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Borders = (props) => {
+const Borders = props => {
+
     return (
            <div>
-               <p>{props.borders}</p>
+               <p>{ props.borders }</p>
            </div>
 
     );

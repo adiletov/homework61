@@ -3,20 +3,23 @@
 }
 .countries{
     width: 30%;
+    padding: 5px;
+}
+.list{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .countries h5{
-    border: 1px solid black;
     margin: 0px;
     padding: 20px;
-    border-bottom: none;
+    font-size: 20px;
 }
 .countryInfo{
-    border: 1px solid black;
-    border-left: none;
     width: 69%;
 }
 .countryInfo h5{
-    border-bottom: 1px solid black;
     margin: 0px;
     padding: 20px;
+    font-size: 20px;
 }

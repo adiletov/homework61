@@ -1,7 +1,22 @@
 .infoBlock{
-
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.infoCountry{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: left;
+    box-shadow: 3px -2px 21px 5px rgba(0,0,0,0.36);}
+.mainCountry{
+    display: flex;
 }
 .infoImg{
+    margin-left: 20px;
     width: 200px;
     border: 1px solid black;
 }
